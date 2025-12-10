@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+    color: white;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.header__conteiner{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header__menu{
+    display: none;
+    fill: white;
+}
+
+.header__rog{
+    display: flex;
+    width: 160px;
+    height: 30px;
+    fill: red;
+}
+
+.header__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__nav-item{
+    font-weight: 425;
+}
+
+.header__nav-item:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.header__r{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__asus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__bar{
+    width: 0.1px;
+    height: 20px;
+    background-color: rgb(121,121,121);
+}
+
+.header__search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px 24px;
+    fill: white;
+}
+
+.header__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px 24px;
+    fill: white;
+}
+
+.header__login:hover{
+    fill:red;
+    cursor: pointer;
+}
+
+.header__search:hover{
+    fill:red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .header__menu{
+        display: flex;
+        fill: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__conteiner{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header__login{
+        display: none;
+    }
+    .header__bar{
+        display: none;
+    }
+    .header__asus{
+        display: none;
+    }
+    .header__ul{
+        display: none;
+    }
+}
