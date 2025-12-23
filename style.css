@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -113,7 +112,7 @@ header{
         display: flex;
         fill: white;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .header__conteiner{
